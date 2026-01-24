@@ -41,12 +41,12 @@ export default function Hero() {
             </p>
 
             <div className="mt-8 flex gap-4">
-              <Button className="bg-accent text-primary hover:bg-accent/90">
+              <Button className="border border-white bg-primary text-primary-foreground hover:bg-accent/90">
                 View Projects
               </Button>
               <Button
                 variant="outline"
-                className="border-white text-primary hover:bg-white hover:text-primary"
+                className="border-white  bg-accent text-accent-foreground hover:bg-white hover:text-primary"
               >
                 Book Consultation
               </Button>

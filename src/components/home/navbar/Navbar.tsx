@@ -25,20 +25,18 @@ const pageLinks = [
 
 export function Navbar() {
   const menuItem = navLinks.map((link) => (
-    <>
-      <NavigationMenuItem key={link.name}>
-        <Link
-          href={link.href}
-          className="tracking-wide text-white hover:text-red-700"
-        >
-          {link.name}
-        </Link>
-      </NavigationMenuItem>
-    </>
+    <NavigationMenuItem key={link.name}>
+      <Link
+        href={link.href}
+        className="tracking-wide text-white hover:text-red-700"
+      >
+        {link.name}
+      </Link>
+    </NavigationMenuItem>
   ));
 
   return (
-    <div className="navbar bg-bgSoft border-b">
+    <div className="navbar h-20 border-b">
       {/* START */}
       <div className="navbar-start">
         <div className="dropdown">
@@ -116,7 +114,9 @@ export function Navbar() {
 
       {/* END */}
       <div className="navbar-end">
-        <Button className="  hover:bg-accent/90">Book Consultation</Button>
+        <Button className="bg-primary text-primary-foreground ">
+          Book Consultation
+        </Button>
       </div>
     </div>
   );

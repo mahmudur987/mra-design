@@ -1,0 +1,29 @@
+import Link from "next/link";
+
+export function CTA() {
+  return (
+    <section className="py-24 bg-primary text-white text-center">
+      <h2 className="text-4xl font-serif font-semibold">
+        Let’s Design Your Dream Space
+      </h2>
+      <p className="mt-4 opacity-90">
+        Book a free consultation with our design experts today.
+      </p>
+
+      <div className="mt-8 flex justify-center gap-4">
+        <Link
+          href="/contact"
+          className="rounded-full bg-white px-8 py-3 text-primary font-medium"
+        >
+          Book Consultation
+        </Link>
+        <Link
+          href="/projects"
+          className="rounded-full border border-white px-8 py-3"
+        >
+          View Projects
+        </Link>
+      </div>
+    </section>
+  );
+}

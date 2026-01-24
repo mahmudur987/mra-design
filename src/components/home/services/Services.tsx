@@ -36,12 +36,11 @@ const services = [
 
 export default function Services() {
   return (
-    <section className="py-20 bg-bgSoft">
+    <section className="py-20 bg-secondary ">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl md:text-4xl font-playfair text-center mb-12">
+        <h2 className="text-3xl md:text-4xl font-playfair text-center mb-12 ">
           Our Services
         </h2>
-
         <div className="flex flex-wrap  justify-around gap-2 gap-y-8">
           {services.map((service, index) => (
             <motion.div
