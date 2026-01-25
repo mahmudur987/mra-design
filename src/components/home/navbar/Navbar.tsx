@@ -59,13 +59,15 @@ export function Navbar() {
 
           <ul
             tabIndex={-1}
-            className="menu menu-sm dropdown-content bg-bgSoft rounded-box z-10 mt-3 w-56 p-2"
+            className="menu menu-sm dropdown-content bg-primary rounded-box z-10 mt-3 w-56 p-2"
           >
             {menuItem}
 
             <li>
               <details>
-                <summary>More</summary>
+                <summary className="text-white hover:text-red-700">
+                  More
+                </summary>
                 <ul className="p-2 bg-bgSoft w-48">
                   {pageLinks.map(({ name, href }) => (
                     <li key={name}>
@@ -113,7 +115,7 @@ export function Navbar() {
       </div>
 
       {/* END */}
-      <div className="navbar-end">
+      <div className="navbar-end  hidden md:flex">
         <Button className="bg-primary text-primary-foreground ">
           Book Consultation
         </Button>

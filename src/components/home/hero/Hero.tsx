@@ -46,7 +46,7 @@ export default function Hero() {
               </Button>
               <Button
                 variant="outline"
-                className="border-white  bg-accent text-accent-foreground hover:bg-white hover:text-primary"
+                className="border-white  bg-accent text-white hover:bg-white hover:text-primary"
               >
                 Book Consultation
               </Button>

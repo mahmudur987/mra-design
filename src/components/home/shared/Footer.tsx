@@ -76,7 +76,7 @@ export function Footer() {
               <br />
               <a
                 href="mailto:info@mradesign.com"
-                className="mt-2 inline-block text-primary hover:underline"
+                className="mt-2 inline-block text-primary-foreground hover:underline"
               >
                 info@mradesign.com
               </a>
