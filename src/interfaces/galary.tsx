@@ -1,8 +1,10 @@
+import { StaticImageData } from "next/image";
+
 export interface IGalleryData {
   id: string;
   title: string;
   description: string;
-  image: string;
+  image: StaticImageData;
   category: string;
   style: string;
   theme: string;

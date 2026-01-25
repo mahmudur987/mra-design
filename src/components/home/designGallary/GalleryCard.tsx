@@ -1,12 +1,12 @@
 "use client";
 
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { motion } from "framer-motion";
 
 interface GalleryCardProps {
   title: string;
   description: string;
-  image: string;
+  image: StaticImageData;
   category: string;
   style: string;
   theme: string;
