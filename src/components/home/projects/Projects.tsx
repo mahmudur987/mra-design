@@ -224,7 +224,7 @@ export default function Projects() {
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl md:text-4xl font-playfair text-center mb-12">
+        <h2 className="text-3xl md:text-5xl font-playfair font-bold text-center mb-12">
           Featured Projects
         </h2>
 
@@ -246,7 +246,7 @@ export default function Projects() {
                     alt={project.title}
                     className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                   />
-                  <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-center p-4">
+                  <div className="absolute inset-0 bg-black/40 lg:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-center items-center text-center p-4">
                     <h3 className="text-white text-xl font-semibold mb-2">
                       {project.title}
                     </h3>
