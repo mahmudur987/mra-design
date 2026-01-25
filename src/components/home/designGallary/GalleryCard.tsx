@@ -39,7 +39,7 @@ export function GalleryCard({
       <div className="absolute inset-0 bg-black/50 lg:opacity-0 group-hover:opacity-100 transition duration-300" />
 
       {/* Content */}
-      <div className="absolute bottom-0 left-0 right-0 p-5 text-accent-foreground lg:translate-y-8 group-hover:translate-y-0 transition-all duration-300">
+      <div className="absolute bottom-0 left-0 right-0 p-5 text-white lg:translate-y-8 group-hover:translate-y-0 transition-all duration-300">
         <span className="text-xs uppercase tracking-widest opacity-80">
           {category}
         </span>
