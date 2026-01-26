@@ -52,7 +52,7 @@ export default function Projects() {
       </div>
 
       <div className="flex justify-center my-10">
-        <Link href="/studio">
+        <Link href="/projects">
           <Button>show more</Button>
         </Link>
       </div>

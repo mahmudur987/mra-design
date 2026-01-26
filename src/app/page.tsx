@@ -6,7 +6,7 @@ import { HowItWorks } from "@/components/home/how-it-work/HowItWorks";
 import { Packages } from "@/components/home/package/Packages";
 import Projects from "@/components/home/projects/Projects";
 import Services from "@/components/home/services/Services";
-import { Footer } from "@/components/home/shared/Footer";
+import { Footer } from "@/components/shared/Footer";
 import { Testimonials } from "@/components/home/Testimonials/Testimonials";
 import { WhyChooseUs } from "@/components/home/WhyChooseUs/WhyChooseUs";
 
