@@ -1,45 +1,9 @@
 "use client";
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
-import img1 from "../../../assets/images/projects/office..jpg";
+
 import Image from "next/image";
-const testimonials = [
-  {
-    name: "Ahmed Rahman",
-    designation: "Homeowner · Gulshan",
-    text: "Professional, creative, and reliable. Our home looks stunning.",
-    avatar: img1,
-    projectImage: img1,
-  },
-  {
-    name: "Farzana Islam",
-    designation: "Founder · Boutique Studio",
-    text: "They understood our vision perfectly and delivered beyond expectations.",
-    avatar: "/images/testimonials/farzana.jpg",
-    projectImage: "/images/projects/project-2.jpg",
-  },
-  {
-    name: "Tanvir Hossain",
-    designation: "Apartment Owner · Dhanmondi",
-    text: "Clear communication, premium materials, and flawless execution.",
-    avatar: "/images/testimonials/tanvir.jpg",
-    projectImage: "/images/projects/project-3.jpg",
-  },
-  {
-    name: "Nusrat Jahan",
-    designation: "Entrepreneur",
-    text: "The entire experience felt effortless. Truly a high-end service.",
-    avatar: "/images/testimonials/nusrat.jpg",
-    projectImage: "/images/projects/project-4.jpg",
-  },
-  {
-    name: "Imran Chowdhury",
-    designation: "Managing Director · Tech Firm",
-    text: "Attention to detail and professionalism were exceptional.",
-    avatar: "/images/testimonials/imran.jpg",
-    projectImage: "/images/projects/project-5.jpg",
-  },
-];
+import testimonials from "@/data/testimonial";
 
 /* ---------------------------------- */
 /* Motion Variants */

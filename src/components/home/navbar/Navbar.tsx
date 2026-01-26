@@ -1,5 +1,6 @@
 "use client";
 
+import { ConsultationModal } from "@/components/modal/ConsultationModal";
 import { Button } from "@/components/ui/button";
 import { NavigationMenuItem } from "@/components/ui/navigation-menu";
 import Link from "next/link";
@@ -116,9 +117,7 @@ export function Navbar() {
 
       {/* END */}
       <div className="navbar-end  hidden md:flex">
-        <Button className="bg-primary text-primary-foreground ">
-          Book Consultation
-        </Button>
+        <ConsultationModal className="bg-primary text-primary-foreground " />
       </div>
     </div>
   );

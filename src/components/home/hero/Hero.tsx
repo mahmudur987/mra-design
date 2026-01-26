@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 
 import { Navbar } from "../navbar/Navbar";
+import { ConsultationModal } from "@/components/modal/ConsultationModal";
 export default function Hero() {
   return (
     <section className="relative h-screen w-full overflow-hidden">
@@ -44,12 +45,7 @@ export default function Hero() {
               <Button className="border border-white bg-primary text-primary-foreground hover:bg-accent/90">
                 View Projects
               </Button>
-              <Button
-                variant="outline"
-                className="border-white  bg-accent text-white hover:bg-white hover:text-primary"
-              >
-                Book Consultation
-              </Button>
+              <ConsultationModal className="border-white  bg-accent text-white hover:bg-white hover:text-primary" />
             </div>
           </motion.div>
         </div>

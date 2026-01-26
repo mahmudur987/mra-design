@@ -1,4 +1,4 @@
-import { galleryData } from "@/data/gallary";
+import { galleryData } from "@/data/gallery";
 import { GalleryCard } from "./GalleryCard";
 import Link from "next/link";
 
@@ -20,7 +20,7 @@ export function DesignGallery() {
 
         {/* Gallery Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {gallery.map((item) => (
+          {gallery.slice(0, 3).map((item) => (
             <GalleryCard
               key={item.id}
               title={item.title}
@@ -36,7 +36,7 @@ export function DesignGallery() {
         {/* CTA */}
         <div className="mt-14 text-center">
           <Link
-            href="/gallery"
+            href="/inspirations"
             className="inline-flex items-center justify-center rounded-full border border-primary px-8 py-3 text-sm font-medium transition hover:bg-primary hover:text-primary-foreground"
           >
             Explore Full Gallery

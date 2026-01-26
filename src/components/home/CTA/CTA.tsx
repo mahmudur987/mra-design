@@ -1,3 +1,4 @@
+import { ConsultationModal } from "@/components/modal/ConsultationModal";
 import Link from "next/link";
 
 export function CTA() {
@@ -11,12 +12,7 @@ export function CTA() {
       </p>
 
       <div className="mt-8 flex justify-center gap-4">
-        <Link
-          href="/contact"
-          className="rounded-full bg-white px-8 py-3 text-primary font-medium hover:bg-accent hover:text-white"
-        >
-          Book Consultation
-        </Link>
+        <ConsultationModal className="rounded-full bg-white px-10 py-7 text-primary font-medium hover:bg-accent hover:text-white" />
         <Link
           href="/projects"
           className="rounded-full border border-white px-8 py-3 text-white font-medium hover:bg-white hover:text-primary"
