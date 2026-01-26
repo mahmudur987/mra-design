@@ -21,7 +21,7 @@ const itemVariants = {
 
 export function Footer() {
   return (
-    <footer className="bg-accent text-primary-foreground">
+    <footer className="bg-black text-primary-foreground">
       <motion.div
         variants={containerVariants}
         initial="hidden"
